@@ -1,0 +1,27 @@
+1.O que é git?
+
+R:E um sistema de controlede versão de arquivos
+
+2.O que é github?
+
+R: É uma rede social dev para armazenar ecompartilhar projetos
+
+Apresente 3 alternativas para o github.
+
+R:Microsoft azure, google drive e adobe acrobat reader
+
+5.Para que serve o push origin?
+
+R:serve para efetuar fazer a alteração locais para o repositorio online
+
+6.O que é pullrequest github?
+
+R:serve para propor alterações nos projetos
+
+7.Explique o que é versionamento?
+
+R:É acompanhar e registrar todas as alterações feitas
+
+8.Explique o que é fluxo de trabalho colaborativo github?
+
+R:É um fluxo de trabalho leve baseada em branch para suportar equipes e projetos
