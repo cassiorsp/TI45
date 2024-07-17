@@ -1,0 +1,16 @@
+1 - O que é git?
+    R: Git é um sistema de código aberto criado pelo Linus Torvalds que tem como objetivo a organização, rastreamento e desenvolvimento eficiente e coordenado
+2 - O que é github?
+    R: É basicamente um software/site que se baseia no Git, sendo um sistema para criação e manipulação de diretórios personalizados que podem ser compartilhados com o público ou vários colaboradores de um mesmo projeto, usando a sistematização de branches e versões, compilando o histórico de versões para que tudo seja documentado e gerenciado
+3 - Apresente 3 alternativas para o github.
+    R: GitLab, BitBucket e CurseForge (Específico para projetos de modificação de jogos)/SourceForge
+4 - Para que serve o commit do github?
+    R: O commit do github serve para salvar as alterações feitas localmente em um controle de versão de um software em que várias pessoas trabalham em conjunto, podendo ter melhor controle sobre as alterações feitas nos arquivos
+5 - Para que serve o push origin?
+    R: Serve para enviar todos os commits feitos em sua linha do tempo de trabalho e adicionando ao branch que estava sendo trabalhado
+6 - O que é pullrequest github?
+    R: É resumidamente um pedido de integração de alterações feitas em um arquivo/código de uma outra brach para a de origem ou outra definida, permitindo aos donos do repositório verificarem e testarem as alterações antes de mescla-las totalmente 
+7 - Explique o que é versionamento?
+    R: É uma estratégia para diferenciar variadas versões de um mesmo código/software, como por exemplo no minecraft que possui um número expondo sua versão (20.14, 21.0, 21.5 etc.)
+8 - Explique o que é fluxo de trabalho colaborativo github?
+    R: O fluxo de trabalho colabortivo do github é a forma/estratégia para realizar um trabalho em conjunto ordenado e eficiente visando uma hierarquia de supervisão e revisão, evitando erros e bu
