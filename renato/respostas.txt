@@ -1,0 +1,23 @@
+O que é git?
+R: Um sistema de codigo de aberto par repositorios.
+
+O que é github?
+r: Uma plataforma de hospedagem de código fonte.
+
+Apresente 3 alternativas para o github.
+r: Aws, Azure, Cursed forge.
+
+Para que serve o commit do github?
+r: registrar uma mudança no repositorio.
+
+Para que serve o push origin?
+r: para atualizar o repositorio de maneira remota.
+
+O que é pullrequest github?
+r: solicitação de revisão de mudança na linha de código.
+
+Explique o que é versionamento?
+r: ele serve para rastrear e gerenciar mudanças no codigo.
+
+Explique o que é fluxo de trabalho colaborativo github?
+r: é um conjunto de procedimentos que serve como um guia  para os desenvolvedores trabalharem em conjunto em algum projeto.
