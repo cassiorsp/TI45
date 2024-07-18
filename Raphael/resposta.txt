@@ -1,0 +1,59 @@
+1. O que é git?
+
+    Git é um sistema open source de controle de versão, é usado para controlar 
+    o histórico de alterações de arquivos e projetos de desenvolvimento de 
+    software o que permite mais flexibilidade no workflow com segurança e 
+    desmpenho.
+
+2. O que é github?
+
+    GitHub é uma plataforma que hospeda códigos e arquivos e facilita a 
+    colaboração entre desenvolvedores, ele facilita o uso do Git no dia a dia.
+
+3. Apresente 3 alternativas para o github.
+
+    Algumas alternativas ao GitHub incluem:
+
+        GitLab: O GitLab não é apenas uma alternativa ao GitHub, mas uma 
+                plataforma completa para desenvolvimento de software. Ele oferece 
+                todas as ferramentas essenciais necessárias, como gerenciamento de 
+                código, projeto, relatórios de problemas, entrega contínua e 
+                monitoramento, sendo fundamental para qualquer equipe de desenvolvimento.
+
+        Bitbucket: O Bitbucket suporta o Git, mas também é conhecido por ser integrado ao
+                   ecosistema da Atlassian o que facilita a colaboração com outras ferramentas.
+                   ele oferece suporte a repositórios Git e também Mercurial.
+
+        Gitea: O Gitea oferece muitos dos recurso do GitHub, incluindo controle de acesso,
+               pull requests e gerenciamento de issues, é de código aberto, leve, fácil de instalar,
+               e tem um foco em ser uma solução auto-hospedada e mais leve em recurso computacionais
+
+4. Para que serve o commit do github?
+
+    O commit registra uma alteração nos arquivos do projeto, incluindo uma mensagem descritiva que 
+    resume as mudanças. Esses registros são fundamentais para rastrear o histórico do projeto e facilitar 
+    a colaboração entre os membros da equipe.
+
+5. Para que serve o push origin?
+
+    O comando git push origin envia as alterações locais para o repositório remoto chamado origin, como GitHub, 
+    após o commit das mudanças no repositório local.
+
+6. O que é pullrequest github?
+
+    Um pull request no GitHub permite que colaboradores solicitem a incorporação de suas alterações de 
+    um branch para o branch principal de outro repositório, facilitando revisões, discussões e integração 
+    de trabalho colaborativo.
+
+7. Explique o que é versionamento?
+
+    Versionamento é o controle e gerenciamento de diferentes versões de informações ao longo do tempo, 
+    essencial para acompanhar mudanças, colaborar entre pessoas e recuperar versões anteriores quando 
+    necessário, principalmente no desenvolvimento de software e em outros contextos criativos.
+
+8. Explique o que é fluxo de trabalho colaborativo github? 
+
+    No GitHub, o fluxo de trabalho colaborativo inclui o uso de branches para desenvolver funcionalidades 
+    e correções, pull requests para revisar e mesclar alterações, revisão de código para discussão e 
+    aprovação, integração contínua para automação de testes e builds, e gerenciamento de issues para rastrear 
+    e resolver problemas, sugestões e melhorias.
