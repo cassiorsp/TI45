@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo para o corpo da página */
+    color: #333;
+}
+
+.header {
+    position: relative;
+    height: 300px;
+}
+
+.header .fixed-image {
+    position: fixed; /* Fixa a imagem no topo da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
+}
+
+.header .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    filter: invert();
+}
+
+.container {
+    width: 100%;
+    background-color: #f4f4f4; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    position: relative; /* Necessário para a posição do container */
+    z-index: 1; /* Garante que o container fique acima da imagem do cabeçalho */
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qa {
+    width: 100%;
+    max-width: 800px; /* Limita a largura para um tamanho mais confortável */
+    margin-bottom: 20px;
+}
+
+.qa h2 {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ffffff8a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.qa h2:hover {
+    background-color: #3a3a3a;
+    color: #f4f4f4;
+}
+
+.qa p {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.qa.active p {
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    clip-path: ellipse(75% 100% at 50% 100%);
+    tran
+    background-size: cover;
+    background-position: center;
+}

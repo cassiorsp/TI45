@@ -1,20 +1,62 @@
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Informações sobre Git e GitHub</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./images/home.jpg" alt="Background Image" class="fixed-image">
+        <img src="./images/image-removebg-preview.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <main class="main">
+            <section class="qa">
+                <h2>O que é Git?</h2>
+                <p>Git é um sistema de controle de versão distribuído, usado principalmente no desenvolvimento de software para registrar as alterações no código-fonte ao longo do tempo.</p>
+            </section>
+            <section class="qa">
+                <h2>O que é GitHub?</h2>
+                <p>GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando Git. Ele permite que desenvolvedores colaborem em projetos de software de forma eficiente.</p>
+            </section>
+            <section class="qa">
+                <h2>Apresente 3 alternativas para o GitHub.</h2>
+                <p>Três alternativas para o GitHub são: GitLab, Bitbucket e SourceForge.</p>
+            </section>
+            <section class="qa">
+                <h2>Para que serve o commit do GitHub?</h2>
+                <p>O commit no GitHub serve para salvar uma versão específica das alterações feitas no código, permitindo que essas alterações sejam registradas no histórico do projeto.</p>
+            </section>
+            <section class="qa">
+                <h2>Para que serve o push origin?</h2>
+                <p>O comando push origin serve para enviar as alterações locais do repositório para o repositório remoto, atualizando o projeto compartilhado na plataforma.</p>
+            </section>
+            <section class="qa">
+                <h2>O que é pull request no GitHub?</h2>
+                <p>O pull request no GitHub é uma solicitação para revisar e possivelmente mesclar as alterações propostas de um branch para outro, permitindo a colaboração e revisão de código.</p>
+            </section>
+            <section class="qa">
+                <h2>Explique o que é versionamento.</h2>
+                <p>Versionamento é o processo de gerenciar e controlar as diferentes versões de um software, permitindo que desenvolvedores acompanhem e revertam alterações conforme necessário.</p>
+            </section>
+            <section class="qa">
+                <h2>Explique o que é fluxo de trabalho colaborativo no GitHub.</h2>
+                <p>O fluxo de trabalho colaborativo no GitHub envolve a utilização de branches, commits, pull requests e revisões de código para permitir que vários desenvolvedores trabalhem juntos de maneira organizada e eficiente.</p>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; Luigi Lodi</p>
+    </footer>
+    <script>
+        document.querySelectorAll('.qa h2').forEach((item) => {
+            item.addEventListener('click', () => {
+                const parent = item.parentElement;
+                parent.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
