@@ -1,0 +1,24 @@
+1- O que é git?
+permite que você controle histórico de arquivos e projetos.
+
+2- O que é github?
+O GitHub é uma plataforma de hospedagem de código-fonte
+
+3- Apresente 3 alternativas para o github
+GitLab, Bitbucket, SourceForge
+
+4- Para que serve o commit do github?
+permite que você registre alterações em um repositório
+
+5- Para que serve o push origin?
+permite que você faça alterações em um repositório de forma remota
+
+6- O que é pullrequest github?
+Um pull request permite alterações feitas em uma ramificação de um repositorio no GitHub.
+
+Explique o que é versionamento?
+ processo de criar novas versões de um código toda vez que existir uma mudança nele
+
+
+Explique o que é fluxo de trabalho colaborativo github?
+O fluxo de trabalho colaborativo do gitHub é como trabalhar em um projeto com várias pessoas em uma equipe, cada pessoa cria uma cópia do projeto para fazer suas mudanças, e depois essas mudanças são combinadas em uma única versão final.

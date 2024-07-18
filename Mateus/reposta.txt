@@ -1,0 +1,28 @@
+1.O que é git?
+Git é um sistema para controlar versões de arquivos, muito usado na programação.
+ Ele ajuda a acompanhar as mudanças que você faz em um projeto, facilitando as outras pessoas.
+
+
+2.O que é github?
+GitHub é uma plataforma online onde você pode armazenar seus projetos que usam Git.
+ É super útil para trabalhar em equipe e compartilhar código com outras pessoas.
+
+3.Apresente 3 alternativas para o github.
+Tem uma comunidade ativa, ideal para quem está trabalhando em projetos de código aberto.
+Pode ser usado tanto na nuvem quanto em servidores próprios.
+Focado em equipes de desenvolvimento.
+
+4.Para que serve o commit do github?
+O commit no GitHub serve pra salvar as mudanças que você fez no código.
+
+5.Para que serve o push origin?
+O comando "push origin" serve pra enviar suas mudanças que você fez no código pra um repositório remoto, tipo no GitHub.
+
+6.O que é pullrequest github?
+Um pull request no GitHub é um jeito de pedir que suas mudanças no código sejam revisadas e mescladas ao projeto principal.
+
+7.Explique o que é versionamento?
+Versionamento é basicamente o jeito de organizar e acompanhar as mudanças que você faz em arquivos ou projetos ao longo do tempo. 
+
+8.Explique o que é fluxo de trabalho colaborativo github.
+O fluxo de trabalho colaborativo no GitHub é como uma maneira organizada de várias pessoas trabalharem juntas em um projeto. 

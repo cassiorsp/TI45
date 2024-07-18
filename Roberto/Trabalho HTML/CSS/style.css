@@ -1,0 +1,15 @@
+.geral {
+    display: flex;
+    flex-direction: column ;
+    width: 100%;
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 110px;
+        background-color: beige;
+
+        
+
+    }
+}
