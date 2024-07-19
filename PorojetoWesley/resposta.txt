@@ -1,0 +1,8 @@
+O que é Git? R:seria uma ferramenta que nos ajuda a gerenciar e visualizar mudanças no código de algum projeto!
+O que é GitHub? R:seria um receptáculo de repositórios, pode ser tb uma rede social para programadores!
+Apresente 3 alternativas para o github. R:devops, aws, gitkraken!
+Para que serve o commit do github? R: para salvar mudanças feitas num código de algum projeto!
+Para que serve o push origin? R: para enviar as mudanças feitas localmente do git para o repositório remoto do github!
+O que é pullrequest github? R: seria uma solicitação para que as mudanças que fiz em uma branch de um repositório sejam revisadas e incluidas em outra branch!
+Explique o que é versionamento? R: é o processo de gerenciar e registrar mudanças em arquivos ao longo do tempo, permitindo que vc veja quem fez o quê!
+Explique o que é fluxo de trabalho colaborativo github?R: seria um conjunto de práticas que permite que várias pessoas trabalhem juntas em um projeto de uma forma mais organizada!
