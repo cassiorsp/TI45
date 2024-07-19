@@ -1,23 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>.Net 7.0 <P></P>resentation Home</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <div class="geral">
-        <div class="header">
-            <img src="CSS/img/arriva-microsoft-.net-7-removebg-preview.png" alt="">
+    <div class="geral" id="pageone">
+        <div class="header_logo">
+            <div class="image">
+                <div class="logo">
+                    <img src="CSS/img/arriva-microsoft-.net-7-removebg-preview.png" alt="" href="#pageone">
+                </div>
+                <div class="titulo">
+                    <p class="titulohead">.NET 7.0</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="header_nav">
             <ul class="navi">
-                <li class="option"><a href=""></a></li>
-                <li class="option"><a href=""></a></li>
-                <li class="option"><a href=""></a></li>
-                <li class="option"><a href=""></a></li>
+                <li class="option"><a href="">Home</a></li>
+                <li class="option"><a href="">Conteúdo</a></li>
+                <li class="option"><a href="">Mais</a></li>
+                <li class="option"><a href="">Sobre</a></li>
             </ul>
+        </div>
+        <div class="corpo">
+            <section id="content">
+                <div class="explica">
+                    <h1>O que é .NET?</h1>
+                    <p class="txtex">
+                        Para começar, podemos dizer que .NET é uma plataforma de desenvolvimento atualmente open-source,
+                        criada pela Microsoft, e que é composta por uma biblioteca padrão, um compilador e uma máquina
+                        virtual.
+                        Esses componentes da plataforma possibilitam a criação de códigos em algumas linguagens, como
+                        C#, VB.NET e F#, afinal, a plataforma foi pensada para utilizar as linguagens e tecnologias da
+                        Microsoft, sem precisar usar bibliotecas diferentes para cada uma delas.
+                    </p>
+                </div>
+                <div class="imagemex">
+                    <h1 class="7">O que a versão 7.0 traz?</h1>
+                    <p>O desempenho é um foco fundamental do .NET 7 e todos os seus recursos são projetados com o
+                        desempenho em mente. Além disso, o .NET 7 inclui os seguintes aprimoramentos voltados puramente
+                        para o desempenho:
+
+                        A OSR (substituição na pilha) é um complemento para compilação em camadas. Ela permite que o
+                        runtime altere o código executado por um método em execução no momento no meio de sua execução
+                        (ou seja, enquanto ele está "na pilha"). Métodos de execução longa podem mudar para versões mais
+                        otimizadas no meio da execução.
+                        A PGO (otimização guiada por perfil) agora funciona com OSR e é mais fácil de habilitar
+                        (adicionando <TieredPGO>true</TieredPGO> ao arquivo de projeto). A PGO também pode instrumentar
+                        e otimizar itens adicionais, como delegados.
+                        Melhor geração de código para Arm64.
+                        O AOT nativo produz um executável autônomo no formato de arquivo da plataforma de destino sem
+                        dependências externas. Ele é totalmente nativo, sem IL ou JIT, e fornece tempo de inicialização
+                        rápido e uma implantação pequena e independente. No .NET 7, o AOT Nativo se concentra em
+                        aplicativos de console e requer que os aplicativos sejam cortados.
+                        Melhorias de desempenho no runtime Mono, que fornece mais recursos a aplicativos Blazor
+                        WebAssembly, Android e iOS.</p>
+                </div>
+            </section>
+            <section id="sobre"></section>
         </div>
     </div>
 </body>
+
 </html>
