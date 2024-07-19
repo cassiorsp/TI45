@@ -71,7 +71,10 @@
             margin-right: 50px;
 
             li {
-
+                display: flex;
+                border: solid 1px;
+                padding: 5px;
+                border-radius: 10px;
                 a {
                     color: rgb(44, 0, 53);
                     font-size: 25px;
@@ -79,9 +82,14 @@
                 }
 
                 a:hover {
-                    font-weight: bolder;
+                    color: white;
+                    transition: 0.5s;
                     text-decoration: underline;
                 }
+            }
+
+            li:hover {
+                background-color: rgb(41, 1, 49);
             }
         }
     }
