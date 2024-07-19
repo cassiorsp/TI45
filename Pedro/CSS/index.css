@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #333;
+    background-color: rgb(12, 1, 1);
     color: #fff;
     
     height: 100px; 
@@ -19,19 +19,19 @@ main{
   }
  
 nav {
-    background-color: #444;
+    background-color: rgb(12, 1, 1);
     text-align: center;
 }
  
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding:t 0;
+    padding: 0;
 }
  
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 100px;
 }
  
 nav ul li a {
@@ -43,7 +43,7 @@ nav ul li a {
 }
  
 nav ul li a:hover {
-    background-color: rgb(33, 214, 78);
+    background-color: rgb(238, 12, 12);
 }
  
  
@@ -52,11 +52,11 @@ nav ul li a:hover {
 
  
 body img{
- 
+ width: 600px;
     right: 400px;
-    position: absolute;
+    position: center;
     bottom: 782px;
-    height: 180px;
+    height: 450px;
     left: 20px;        
 }
  
@@ -68,7 +68,7 @@ body img{
  
 body {
     font-family: Arial, Verdana, sans-serif;
-    color: #f30909;
+    color: #140202;
 
  
    
@@ -80,20 +80,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;  
+    position: center;  
     bottom: 0;
-    /* left: 0; */
     height: 10vh;
     width: 100%;
-    background-color: rgb(7, 1, 1);
- 
- 
+    background-color: rgba(0, 0, 0, 0.658);
+    text-align: center;
+    color: white;
  
  
  }
 
- .imgheader{
-    width: 10px;
- }
-
+ 
  
