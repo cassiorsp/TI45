@@ -54,9 +54,18 @@
         document.querySelectorAll('.qa h2').forEach((item) => {
             item.addEventListener('click', () => {
                 const parent = item.parentElement;
+                const allQuestions = document.querySelectorAll('.qa');
+    
+                allQuestions.forEach(q => {
+                    if (q !== parent) {
+                        q.classList.remove('active');
+                    }
+                });
+    
                 parent.classList.toggle('active');
             });
         });
     </script>
+    
 </body>
 </html>
