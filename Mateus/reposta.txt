@@ -25,4 +25,4 @@ Um pull request no GitHub é um jeito de pedir que suas mudanças no código sej
 Versionamento é basicamente o jeito de organizar e acompanhar as mudanças que você faz em arquivos ou projetos ao longo do tempo. 
 
 8.Explique o que é fluxo de trabalho colaborativo github.
-O fluxo de trabalho colaborativo no GitHub é como uma maneira organizada de várias pessoas trabalharem juntas em um projeto. 
+O fluxo de trabalho colaborativo no GitHub é como uma maneira organizada de várias pessoas trabalharem juntas em um projeto.
