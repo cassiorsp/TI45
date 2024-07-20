@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    height: 1080px;
+    background-color: rgb(255, 255, 255);
+
+    .cima{
+        display: flex;
+        max-height: 40%;
+        width: 1080px;
+    
+        .imagemqueijo{
+            max-width: 60%;
+            max-height: 100%;
+            padding-top: 10px;
+    
+            img{
+                max-width:100%;
+            }    
+        }  
+    
+        .infos{
+            position: relative;
+            max-width: 40%;
+            
+            .cabecalho{
+                position: absolute;
+                top: 10%;
+                font-family: 'Amatic SC';
+                font-size: 86px;
+            }
+    
+            .textoInfo1{
+                font-family: 'Indie Flower';
+                position: absolute;
+                top: 30%;
+                font-size: 30px;
+                text-align: center;
+            }
+    
+            .textoInfo2{
+                font-family: 'Indie Flower';
+                position: absolute;
+                top: 55%;
+                font-size: 30px;
+                text-align: center;
+            }
+    
+            .textoinfo3{
+                font-family: 'Indie Flower';
+                font-size: 22px;
+                display: flex;
+                position: absolute;
+                top: 75%;
+                padding: 2px;
+    
+                .info3filho1{
+                    text-align: left;
+                }
+    
+                .info3filho2{
+                    text-align: right;
+                }
+            }
+    
+            img{
+                max-width: 100%;
+                opacity: 18%;
+            }       
+        }
+    }
+    
+    
+    
+    .meio{
+        display: flex;
+        width: 100%;
+        height: 98px;
+    
+        .icones{
+            padding-top: 20px;
+            width: 55%;
+            display: flex;
+            justify-content: space-between;
+                    
+            img{
+                height: 98px;
+            }
+        }
+    
+        .textoMeio{
+            padding-top: 15px;
+            width: 45%;
+            height: 98px;
+            font-family: 'Indie Flower';
+    
+            
+            p{
+                padding-left: 52px;
+                font-size: 22px;
+                text-align: center;
+            }
+        }
+    }
+
+    .baixo{
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+
+        .botao{
+            display: flex;
+            width: 60%;
+            font-family: 'Graduate';
+            justify-content: center;
+            align-items: center;
+            
+
+            a{
+                border: 2px;
+                border-style: solid;
+                border-radius: 15px;
+                font-size: 50px;
+                color: rgb(255, 211, 105);
+                text-decoration: none;
+                padding: 10px 50px 10px 50px;
+            }
+
+            a:hover{
+                box-shadow: 1px 1px 10px 1px black;
+            }
+        }
+
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+
+            img{
+                height: 430px;
+            }
+        }
+    }
+}
+
+
+

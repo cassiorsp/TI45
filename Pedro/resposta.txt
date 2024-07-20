@@ -1,0 +1,30 @@
+ 1.O que é git?
+O Git é um sistema de controle de versão distribuído e amplamente adotado.
+ O Git nasceu e foi tomando espaço dos outros sistemas de controle. 
+ Seu criador principal é o mesmo que o do Linux: Linus Torvalds, e ganhou o coração das pessoas que trabalham com open source.
+
+2.O que é github?
+GitHub é uma plataforma feita para hospedagem de códigos de programação. 
+Os objetivos principais são o controle e a colaboração, permitindo que usuários desenvolvam projetos juntos, estando em qualquer lugar do mundo.
+
+
+3.Apresente 3 alternativas para o github.
+O Jira é uma ferramenta de gestão de fluxo de trabalho com todos os recursos para equipes que planejam e desenvolvem ótimos produtos.
+Pacote de DevOps que simplifica o desenvolvimento de software via código-fonte e controle de pacotes, testes e automação de implantação de aplicativos.
+google drive Plataforma de compartilhamento de arquivos que permite aos usuários armazenar e compartilhar contatos, fotos, vídeos, apresentações, gravações e muito mais.
+
+4.Para que serve o commit do github?
+ O commit do github serve para fazer salvamentos nas alterações dos códigos. 
+
+5.Para que serve o push origin?
+O comando git push permite que você envie (ou em tradução literal, empurre) os commits de sua branch e repositório Git local para o seu repositório remoto.
+
+6.O que é pullrequest github?
+Os pull requests permitem que você proponha alterações nos projetos, forneça feedback e revisões e mescle alterações em projetos. Para obter mais informações, confira "Sobre solicitação de pull".
+
+
+7.Explique o que é versionamento?
+O versionamento é o processo de criar novas versões de um código toda vez que existir uma mudança significativa nele.
+
+8.Explique o que é fluxo de trabalho colaborativo github?
+fluxo de trabalho colaborativo github serve para inumeros programadores trabalharem juntos, construindo codigos em conjunto ao mesmo tempo.

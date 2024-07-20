@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+    
+    .nav {
+        
+        background-color:rgb(0, 0, 0);
+    }
+
+    .header {
+        
+    }
+    .titulo {
+        display: flex; 
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Oswald';
+        font-size: 22px;
+        color:rgb(119, 20, 20);
+    }
+    .perguntas {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Oswald';
+        color: rgb(143, 168, 104); 
+        background-color: black;
+       }
+       .raphael {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Oswald';
+        background-color: rgb(206, 205, 205);
+       }
+
+    
